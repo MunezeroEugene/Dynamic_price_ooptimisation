@@ -35,7 +35,8 @@ Dynamic Pricing System
 
 ## 📊 Dataset Information
 
-- **Source**: Online Retail Dataset
+- **Online Retail Dataset**  
+Available at: [https://ec.europa.eu/eurostat/data/database](https://ec.europa.eu/eurostat/data/database)
 - **Size**: 500,000+ transactions
 - **Coverage**: 4,372 customers, 3,684 products, 38 countries
 - **Time Period**: 12 months of retail data
