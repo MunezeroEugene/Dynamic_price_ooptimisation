@@ -718,37 +718,6 @@ Interactive dashboard featuring:
 - Customer behavioral analytics
 - Competitive intelligence integration
 
-## 🛠️ Usage Examples
-
-### Load and Analyze Data
-```python
-import pandas as pd
-from src.pricing_models import PricingOptimizer
-
-# Load dataset
-df = pd.read_excel('data/raw/Online_Retail.xlsx')
-
-# Initialize pricing optimizer
-optimizer = PricingOptimizer()
-optimizer.fit(df)
-
-# Get price recommendation
-price = optimizer.predict_optimal_price(product_features)
-print(f"Recommended price: £{price:.2f}")
-```
-
-### Customer Segmentation
-```python
-from src.customer_segmentation import RFMAnalyzer
-
-# Perform RFM analysis
-rfm = RFMAnalyzer()
-segments = rfm.analyze(df)
-
-# View segment distribution
-print(segments['Segment'].value_counts())
-```
-
 ## 📈 Future Enhancements
 
 ### Short-term (3-6 months)
