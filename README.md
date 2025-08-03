@@ -150,7 +150,10 @@ def clean_retail_data(df):
 retail_clean = clean_retail_data(retail_df)
 ```
 <img width="831" height="419" alt="cleaning_output" src="https://github.com/user-attachments/assets/f5ef615e-7a7b-41fe-91a2-8cc62b435e92" />
+
+
 ```python
+
 # PART 4: FEATURE ENGINEERING FOR PRICING MODEL
 print("\n🔧 PART 4: FEATURE ENGINEERING")
 print("-"*40)
